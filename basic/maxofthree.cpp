@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+//Greatest of three numbers
+//correct
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    if(a>b)
+    {
+        if(a>c)
+        {
+            cout<<a;
+        }
+        else{
+            cout<<c;
+        }
+    }
+    else{
+        if(b>c)
+        {
+            cout<<b;
+        }
+        else{
+            cout<<c;
+        }
+    }
+}
